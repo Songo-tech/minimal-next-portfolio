@@ -175,7 +175,7 @@ export const Experiences: ExperienceInterface[] = [
     type: "Professional",
     category: ["Mobile Dev", "Full Stack"],
     shortDescription:
-      "Architected a modular framework powering high-performance Android apps used by millions.",
+      "Customized Launcher3 for enterprise devices with optimized sorting, folder management and animations.",
     techStack: ["Android", "Java", "CI/CD", "Jenkins", "AWS"],
     startDate: new Date("2015-01-01"),
     endDate: new Date("2017-12-31"),
@@ -198,13 +198,14 @@ export const Experiences: ExperienceInterface[] = [
     ],
     descriptionDetails: {
       paragraphs: [
-        "Leading the Android framework team, I designed an architecture that enhanced stability and code reuse.",
-        "The framework was adopted across multiple business units, supporting millions of users.",
+        "Performed in-depth customization of the Launcher3 app grid within Android AOSP.",
+        "Efforts centered on workspace sorting, folder creation and refined drag-and-drop animations.",
       ],
       bullets: [
-        "Implemented modular components to accelerate new feature delivery.",
-        "Optimized memory usage and startup performance across flagship apps.",
-        "Automated CI/CD pipelines for streamlined release cycles.",
+        "Implemented ranking-based app sorting for faster retrieval.",
+        "Added drag-and-drop folder creation and management.",
+        "Enhanced drag-and-drop animations for smoother interaction.",
+        "Leveraged Java and Kotlin with Android Studio and Jenkins for CI/CD.",
       ],
     },
   },
