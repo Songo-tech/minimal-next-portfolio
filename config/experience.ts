@@ -56,14 +56,14 @@ export const Experiences: ExperienceInterface[] = [
         description:
           "Real-time FX rates and high-frequency transaction visualization",
         imgArr: [
-          "/experience/cross-border-payment-platform/logo.png",
+          "/experience/cross-border-payment-platform/a.webp",
         ],
       },
       {
         title: "Secure Account Management",
         description: "2FA and OAuth2 flows across payment modules",
         imgArr: [
-          "/experience/cross-border-payment-platform/logo.png",
+          "/experience/cross-border-payment-platform/b.png",
         ],
       },
     ],
@@ -107,13 +107,13 @@ export const Experiences: ExperienceInterface[] = [
         title: "Vehicle Listings",
         description:
           "Searchable inventory, comparison tools and booking forms",
-        imgArr: ["/experience/automotive-ecommerce/logo.png"],
+        imgArr: ["/experience/automotive-ecommerce/a.webp"],
       },
       {
         title: "Responsive UI",
         description:
           "Optimized pages with SASS styling, lazy loading and code splitting",
-        imgArr: ["/experience/automotive-ecommerce/logo.png"],
+        imgArr: ["/experience/automotive-ecommerce/b.webp"],
       },
     ],
     descriptionDetails: {
@@ -144,12 +144,12 @@ export const Experiences: ExperienceInterface[] = [
       {
         title: "Command-Line Mastery",
         description: "Advanced shell configuration and custom aliases for efficient workflows",
-        imgArr: ["/experience/oh-my-zsh-workflow/logo.png"],
+        imgArr: ["/experience/oh-my-zsh-workflow/a.png"],
       },
       {
         title: "Android Builds",
         description: "Compiled Android System UI and managed device debugging with ADB",
-        imgArr: ["/experience/oh-my-zsh-workflow/logo.png"],
+        imgArr: ["/experience/oh-my-zsh-workflow/b.png"],
       },
     ],
     descriptionDetails: {
@@ -186,8 +186,6 @@ export const Experiences: ExperienceInterface[] = [
         description: "Reusable libraries enabling scalable app development",
         imgArr: [
           "/experience/enterprise-android-framework/a.jpg",
-          "/experience/enterprise-android-framework/b.webp",
-          "/experience/enterprise-android-framework/c.jpg",
         ],
       },
       {
@@ -195,7 +193,6 @@ export const Experiences: ExperienceInterface[] = [
         description: "Tools for profiling, memory analysis, and automated testing",
         imgArr: [
           "/experience/enterprise-android-framework/b.webp",
-          "/experience/enterprise-android-framework/c.jpg",
         ],
       },
     ],
@@ -281,12 +278,12 @@ export const Experiences: ExperienceInterface[] = [
       {
         title: "Expense Overview",
         description: "Charts and reports powered by real-time data",
-        imgArr: ["/experience/react-native-finance-tracker/logo.png"],
+        imgArr: ["/experience/react-native-finance-tracker/a.webp"],
       },
       {
         title: "Cloud Sync",
         description: "Seamless data synchronization across devices",
-        imgArr: ["/experience/react-native-finance-tracker/logo.png"],
+        imgArr: ["/experience/react-native-finance-tracker/b.png"],
       },
     ],
     descriptionDetails: {
@@ -317,13 +314,13 @@ export const Experiences: ExperienceInterface[] = [
         title: "Health Dashboard",
         description:
           "Visualized metrics like steps and heart rate with interactive charts",
-        imgArr: ["/experience/ios-health-companion/logo.png"],
+        imgArr: ["/experience/ios-health-companion/a.webp"],
       },
       {
         title: "Workout Planner",
         description:
           "Created customizable workout routines with local reminders",
-        imgArr: ["/experience/ios-health-companion/logo.png"],
+        imgArr: ["/experience/ios-health-companion/b.png"],
       },
     ],
     descriptionDetails: {
