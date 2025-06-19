@@ -62,7 +62,12 @@ export type ValidSkills =
   | "Agile/Scrum"
   | "Chrome DevTools"
   | "Jira"
-  | "Google Analytics";
+  | "Google Analytics"
+  | "Bash"
+  | "Android ADB"
+  | "Oh My Zsh"
+  | "Ubuntu"
+  | "SSH";
 
 export type ValidCategory =
   | "Full Stack"
