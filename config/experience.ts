@@ -28,6 +28,42 @@ export interface ExperienceInterface {
 }
 
 export const Experiences: ExperienceInterface[] = [
+  {
+    id: "ai-tools-experience",
+    companyName: "AI Tooling Skills",
+    type: "Personal Project",
+    category: ["Full Stack"],
+    shortDescription:
+      "Explored AI-powered coding assistants to accelerate development workflows.",
+    techStack: ["ChatGPT", "Codex", "Copilit", "VSCode"],
+    startDate: new Date("2024-01-01"),
+    endDate: new Date("2024-06-01"),
+    companyLogoImg: "/experience/ai/logo.png",
+    pagesInfoArr: [
+      {
+        title: "AI Pair Programming",
+        description:
+          "Leveraged ChatGPT, Codex and Copilit inside VSCode for rapid prototyping",
+        imgArr: ["/experience/ai/a.png"],
+      },
+      {
+        title: "VSCode Workflow",
+        description: "Configured extensions and shortcuts for an AI-enhanced IDE",
+        imgArr: ["/experience/ai/b.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Experimented with the latest AI assistants to streamline everyday coding tasks.",
+        "Integrated multiple models directly in the editor for contextual suggestions.",
+      ],
+      bullets: [
+        "Used ChatGPT for brainstorming and code reviews.",
+        "Applied Codex and Copilit for code generation.",
+        "Optimized productivity with VSCode extensions and custom settings.",
+      ],
+    },
+  },
    {
     id: "cross-border-payment-platform",
     companyName: "FinTech – Global Cross-Border Payment Platform",

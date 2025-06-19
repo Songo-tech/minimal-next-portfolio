@@ -30,6 +30,7 @@ export type ValidSkills =
   | "PostgreSQL"
   | "Redis"
   | "Git"
+  | "GitLab"
   | "CI/CD"
   | "Jenkins"
   | "FastAPI"
@@ -67,7 +68,11 @@ export type ValidSkills =
   | "Android ADB"
   | "Oh My Zsh"
   | "Ubuntu"
-  | "SSH";
+  | "SSH"
+  | "ChatGPT"
+  | "Codex"
+  | "Copilit"
+  | "VSCode";
 
 export type ValidCategory =
   | "Full Stack"
