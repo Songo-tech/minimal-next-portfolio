@@ -491,12 +491,19 @@ export const Experiences: ExperienceInterface[] = [
       {
         title: "Core Modules",
         description: "Reusable libraries enabling scalable app development",
-        imgArr: ["/experience/enterprise-android-framework/logo.png"],
+        imgArr: [
+          "/experience/enterprise-android-framework/a.jpg",
+          "/experience/enterprise-android-framework/b.webp",
+          "/experience/enterprise-android-framework/c.jpg",
+        ],
       },
       {
         title: "Performance Suite",
         description: "Tools for profiling, memory analysis, and automated testing",
-        imgArr: ["/experience/enterprise-android-framework/logo.png"],
+        imgArr: [
+          "/experience/enterprise-android-framework/b.webp",
+          "/experience/enterprise-android-framework/c.jpg",
+        ],
       },
     ],
     descriptionDetails: {
