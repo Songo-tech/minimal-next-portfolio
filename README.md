@@ -119,7 +119,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - Design inspired by modern portfolio best practices
-- Built by [JackSong](https://github.com/namanbarkiya)
+- Built by [JackSong](https://github.com/Songo-tech)
 - Icons from [Lucide](https://lucide.dev/)
 
 ## 💻 Deploy on Vercel
