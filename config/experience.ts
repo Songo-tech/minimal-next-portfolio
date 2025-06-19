@@ -334,6 +334,118 @@ export const Experiences: ExperienceInterface[] = [
       ],
     },
   },
+  {
+    id: "nextmerce-template",
+    companyName: "NextMerce eCommerce Template",
+    type: "Personal Project",
+    category: ["Web Dev", "Full Stack", "UI/UX"],
+    shortDescription:
+      "Enhanced a professional eCommerce template with refined UI/UX and robust analytics.",
+    websiteLink: "https://github.com/NextMerce/nextjs-ecommerce-template",
+    techStack: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Figma",
+      "AWS",
+    ],
+    startDate: new Date("2023-04-01"),
+    endDate: new Date("2023-09-01"),
+    companyLogoImg: "/experience/nextmerce/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Storefront",
+        description: "Modern landing page showcasing featured products",
+        imgArr: ["/experience/nextmerce/home.png"],
+      },
+      {
+        title: "Admin Dashboard",
+        description: "Product and order management interface",
+        imgArr: ["/experience/nextmerce/admin.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Led UI/UX improvements using Figma prototypes to craft a polished shopping experience.",
+        "Integrated Google Analytics and Adsense to monitor traffic and monetize content.",
+        "Deployed scalable infrastructure on AWS leveraging ECS, RDS, S3, CloudWatch, and Secrets Manager.",
+        "Ran optimization experiments to boost conversion rates and user engagement.",
+      ],
+      bullets: [
+        "Designed high-fidelity mockups in Figma for a responsive storefront.",
+        "Configured Google Analytics and Adsense for actionable insights.",
+        "Implemented AWS infrastructure with ECS and RDS for reliability.",
+        "Executed traffic optimization tests improving engagement metrics.",
+      ],
+    },
+  },
+  {
+    id: "discourse-forum",
+    companyName: "Discourse Forum Platform",
+    type: "Personal Project",
+    category: ["Web Dev", "Full Stack"],
+    shortDescription:
+      "Contributed enhancements to the Discourse open-source forum with scalable deployment and analytics integration.",
+    websiteLink: "https://github.com/discourse/discourse",
+    techStack: ["Docker", "PostgreSQL", "Redis", "AWS"],
+    startDate: new Date("2023-06-01"),
+    endDate: new Date("2023-12-01"),
+    companyLogoImg: "/experience/discourse/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Community Forum",
+        description: "Feature-rich discussion board with custom themes",
+        imgArr: ["/experience/discourse/forum.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Implemented theme customizations and plugin development to tailor the platform to diverse communities.",
+        "Added Google Analytics tracking to measure user engagement and growth.",
+        "Managed production deployments using AWS services and Docker containers for scalability.",
+        "Experimented with traffic strategies to foster active discussions and retention.",
+      ],
+      bullets: [
+        "Developed custom Discourse plugins and themes.",
+        "Integrated analytics via Google Analytics for insights.",
+        "Deployed using Docker with AWS S3 and CloudWatch.",
+        "Optimized engagement through targeted experiments.",
+      ],
+    },
+  },
+  {
+    id: "hexo-theme-next",
+    companyName: "Hexo Theme Next",
+    type: "Personal Project",
+    category: ["Web Dev", "UI/UX"],
+    shortDescription:
+      "Upgraded the Hexo Next theme with modern design patterns and ad integration.",
+    websiteLink: "https://github.com/next-theme/hexo-theme-next",
+    techStack: ["HTML 5", "CSS 3", "Javascript", "Figma"],
+    startDate: new Date("2022-10-01"),
+    endDate: new Date("2023-01-01"),
+    companyLogoImg: "/experience/hexo-theme-next/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Blog Layout",
+        description: "Clean and optimized blog interface",
+        imgArr: ["/experience/hexo-theme-next/blog.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Redesigned core templates in Figma to provide an elegant reading experience.",
+        "Integrated Google Adsense slots and analytics tracking for revenue insights.",
+        "Focused on performance tuning and SEO improvements to increase traffic.",
+      ],
+      bullets: [
+        "Crafted UI mockups with Figma for theme upgrades.",
+        "Added Adsense and Analytics for monetization.",
+        "Improved loading speed and SEO for higher reach.",
+      ],
+    },
+  },
 ];
 
 export const featuredExperiences = Experiences.slice(0, 3);

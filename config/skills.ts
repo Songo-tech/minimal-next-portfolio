@@ -79,6 +79,13 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.amazonaws,
   },
   {
+    name: "Figma",
+    description:
+      "Experienced in crafting UI mockups and interactive prototypes using Figma.",
+    rating: 3,
+    icon: Icons.figma,
+  },
+  {
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
