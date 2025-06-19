@@ -446,17 +446,17 @@ export const Experiences: ExperienceInterface[] = [
     techStack: ["Git", "Bash", "Python", "Docker", "SSH"],
     startDate: new Date("2019-01-01"),
     endDate: new Date("2019-06-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "/experience/oh-my-zsh-workflow/logo.png",
     pagesInfoArr: [
       {
         title: "Command-Line Mastery",
         description: "Advanced shell configuration and custom aliases for efficient workflows",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/oh-my-zsh-workflow/logo.png"],
       },
       {
         title: "Android Builds",
         description: "Compiled Android System UI and managed device debugging with ADB",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/oh-my-zsh-workflow/logo.png"],
       },
     ],
     descriptionDetails: {
@@ -486,17 +486,17 @@ export const Experiences: ExperienceInterface[] = [
     techStack: ["Android", "Java", "CI/CD", "Jenkins", "AWS"],
     startDate: new Date("2015-01-01"),
     endDate: new Date("2017-12-31"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "/experience/enterprise-android-framework/logo.png",
     pagesInfoArr: [
       {
         title: "Core Modules",
         description: "Reusable libraries enabling scalable app development",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/enterprise-android-framework/logo.png"],
       },
       {
         title: "Performance Suite",
         description: "Tools for profiling, memory analysis, and automated testing",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/enterprise-android-framework/logo.png"],
       },
     ],
     descriptionDetails: {
@@ -571,17 +571,17 @@ export const Experiences: ExperienceInterface[] = [
     techStack: ["React Native", "Typescript", "Redux", "Firebase"],
     startDate: new Date("2022-01-01"),
     endDate: new Date("2023-07-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "/experience/react-native-finance-tracker/logo.png",
     pagesInfoArr: [
       {
         title: "Expense Overview",
         description: "Charts and reports powered by real-time data",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/react-native-finance-tracker/logo.png"],
       },
       {
         title: "Cloud Sync",
         description: "Seamless data synchronization across devices",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/react-native-finance-tracker/logo.png"],
       },
     ],
     descriptionDetails: {
@@ -593,6 +593,42 @@ export const Experiences: ExperienceInterface[] = [
         "Implemented complex navigation patterns for both Android and iOS.",
         "Utilized TypeScript to enforce reliability across the codebase.",
         "Deployed features to production through automated Firebase pipelines.",
+      ],
+    },
+  },
+  {
+    id: "ios-health-companion",
+    companyName: "iOS Health Companion",
+    type: "Professional",
+    category: ["Mobile Dev"],
+    shortDescription:
+      "Built a wellness companion app leveraging HealthKit and on-device sensors.",
+    techStack: ["Swift", "HealthKit", "CoreData", "SwiftUI"],
+    startDate: new Date("2023-01-01"),
+    endDate: new Date("2024-01-01"),
+    companyLogoImg: "/experience/ios-health-companion/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Health Dashboard",
+        description:
+          "Visualized metrics like steps and heart rate with interactive charts",
+        imgArr: ["/experience/ios-health-companion/logo.png"],
+      },
+      {
+        title: "Workout Planner",
+        description:
+          "Created customizable workout routines with local reminders",
+        imgArr: ["/experience/ios-health-companion/logo.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Showcased proficiency in Swift and modern iOS frameworks to deliver a polished health companion.",
+        "Persisted user data via CoreData while adhering to privacy best practices.",
+      ],
+      bullets: [
+        "Integrated HealthKit for secure access to health metrics.",
+        "Implemented dynamic SwiftUI layouts for an engaging user experience.",
       ],
     },
   },
