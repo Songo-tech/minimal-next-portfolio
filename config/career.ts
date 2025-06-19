@@ -27,7 +27,7 @@ export const careerExperiences: CareerExperienceInterface[] = [
       "Built modular and reusable components using React, TypeScript, Recoil, and SWR to power payment, invoicing, and account management modules.",
       "Integrated secure authentication flows including 2FA and OAuth2, ensuring PCI-DSS compliance across customer interfaces.",
     ],
-    achievements: [
+  achievements: [
       "Implemented automated testing pipelines with Jest and Cypress, achieving 85% test coverage and reducing QA cycles by 30%.",
       "Partnered with designers and backend engineers to reduce average load time from 4.5s to under 2s.",
     ],
@@ -43,6 +43,7 @@ export const careerExperiences: CareerExperienceInterface[] = [
       "Figma",
       "Agile/Scrum",
     ],
+    logo: "/career/company_1.png",
   },
   {
     id: "auto-ecommerce",
@@ -73,6 +74,7 @@ export const careerExperiences: CareerExperienceInterface[] = [
       "Jira",
       "Agile/Scrum",
     ],
+    logo: "/career/company_2.png",
   },
   {
     id: "fashion-ecommerce",
@@ -100,5 +102,6 @@ export const careerExperiences: CareerExperienceInterface[] = [
       "Google Analytics",
       "Webpack",
     ],
+    logo: "/career/company_3.png",
   },
 ];
