@@ -7,25 +7,24 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "autogen",
+    repo: "speechify",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+      "Created a text-to-speech tool with a simple command-line interface.",
+    repoOwner: "Logan676",
+    link: "https://github.com/Logan676/speechify",
   },
   {
-    repo: "creativecommons",
-    contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
+    repo: "hexo-theme-next",
+    contibutionDescription: "Contributed improvements to the Hexo Next theme.",
+    repoOwner: "theme-next",
+    link: "https://github.com/theme-next/hexo-theme-next",
   },
   {
-    repo: "creativecommons",
+    repo: "seadroid",
     contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
+      "Maintainer of the SeaDroid open-source project.",
+    repoOwner: "Logan676",
+    link: "https://github.com/Logan676/seadroid",
   },
 ];
 
