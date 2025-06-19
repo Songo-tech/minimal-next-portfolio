@@ -24,12 +24,6 @@ export const SocialLinks: SocialInterface[] = [
     name: "Twitter",
     username: "@namanbarkiya",
     icon: Icons.twitter,
-    link: "https://twitter.com/namanbarkiya",
-  },
-  {
-    name: "Gmail",
-    username: "naman.barkiya02",
-    icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    link: "",
   },
 ];
