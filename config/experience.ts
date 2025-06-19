@@ -215,7 +215,7 @@ export const Experiences: ExperienceInterface[] = [
     techStack: ["Android", "Java", "CI/CD", "Jenkins", "AWS"],
     startDate: new Date("2015-01-01"),
     endDate: new Date("2017-12-31"),
-    companyLogoImg: "/experience/enterprise-android-framework/logo.png",
+    companyLogoImg: "/experience/enterprise-android-framework/logo.jpg",
     pagesInfoArr: [
       {
         title: "Core Modules",
