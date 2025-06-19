@@ -435,6 +435,147 @@ export const Experiences: ExperienceInterface[] = [
       ],
     },
   },
+  {
+    id: "oh-my-zsh-setup",
+    companyName: "Oh My Zsh Workflow",
+    type: "Personal Project",
+    category: ["Backend", "Full Stack"],
+    shortDescription:
+      "Configured a tailored Oh My Zsh environment to streamline development and integrate productivity plugins.",
+    websiteLink: "https://ohmyz.sh/",
+    techStack: ["Git", "CI/CD", "Jenkins"],
+    startDate: new Date("2019-01-01"),
+    endDate: new Date("2019-06-01"),
+    companyLogoImg: "/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Custom Plugins",
+        description: "Set up git and deployment aliases for rapid project delivery",
+        imgArr: ["/logo.png"],
+      },
+      {
+        title: "Themed Terminal",
+        description: "Designed a sleek prompt theme for clear status visibility",
+        imgArr: ["/logo.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "This personal initiative focused on optimizing my development workflow across numerous projects.",
+        "By customizing Oh My Zsh with a curated set of plugins and themes, I significantly reduced routine command overhead.",
+      ],
+      bullets: [
+        "Integrated Git and deployment aliases into the shell for speed.",
+        "Configured CI/CD shortcuts to streamline release processes.",
+        "Improved overall productivity with a well-organized terminal setup.",
+      ],
+    },
+  },
+  {
+    id: "enterprise-android-framework",
+    companyName: "Enterprise Android Framework",
+    type: "Professional",
+    category: ["Mobile Dev", "Full Stack"],
+    shortDescription:
+      "Architected a modular framework powering high-performance Android apps used by millions.",
+    techStack: ["Android", "Java", "CI/CD", "Jenkins", "AWS"],
+    startDate: new Date("2015-01-01"),
+    endDate: new Date("2017-12-31"),
+    companyLogoImg: "/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Core Modules",
+        description: "Reusable libraries enabling scalable app development",
+        imgArr: ["/logo.png"],
+      },
+      {
+        title: "Performance Suite",
+        description: "Tools for profiling, memory analysis, and automated testing",
+        imgArr: ["/logo.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Leading the Android framework team, I designed an architecture that enhanced stability and code reuse.",
+        "The framework was adopted across multiple business units, supporting millions of users.",
+      ],
+      bullets: [
+        "Implemented modular components to accelerate new feature delivery.",
+        "Optimized memory usage and startup performance across flagship apps.",
+        "Automated CI/CD pipelines for streamlined release cycles.",
+      ],
+    },
+  },
+  {
+    id: "ios-health-companion",
+    companyName: "iOS Health Companion",
+    type: "Professional",
+    category: ["Mobile Dev"],
+    shortDescription:
+      "Developed a secure health data management app for iOS with a focus on stability and privacy.",
+    techStack: ["iOS", "AWS"],
+    startDate: new Date("2018-01-01"),
+    endDate: new Date("2020-06-01"),
+    companyLogoImg: "/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Patient Dashboard",
+        description: "Real-time insights and record synchronization",
+        imgArr: ["/logo.png"],
+      },
+      {
+        title: "Secure Messaging",
+        description: "Encrypted communication channels for clinicians and patients",
+        imgArr: ["/logo.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "I led the development of a robust iOS application used by medical professionals to manage patient data.",
+        "The app prioritized security while delivering a smooth user experience on iPhone and iPad.",
+      ],
+      bullets: [
+        "Built scalable network layers and offline data caching.",
+        "Ensured HIPAA-compliant encryption for sensitive records.",
+        "Collaborated with Australian healthcare teams for successful rollout.",
+      ],
+    },
+  },
+  {
+    id: "react-native-finance-tracker",
+    companyName: "Cross-Platform Finance Tracker",
+    type: "Professional",
+    category: ["Mobile Dev", "Full Stack"],
+    shortDescription:
+      "Created a finance tracking app with React Native delivering feature parity on Android and iOS.",
+    techStack: ["React Native", "Typescript", "Redux", "Firebase"],
+    startDate: new Date("2022-01-01"),
+    endDate: new Date("2023-07-01"),
+    companyLogoImg: "/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Expense Overview",
+        description: "Charts and reports powered by real-time data",
+        imgArr: ["/logo.png"],
+      },
+      {
+        title: "Cloud Sync",
+        description: "Seamless data synchronization across devices",
+        imgArr: ["/logo.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "This project demonstrated my ability to deliver consistent user experiences across platforms.",
+        "Leveraging React Native and Firebase, I implemented real-time data sync and state management with Redux.",
+      ],
+      bullets: [
+        "Implemented complex navigation patterns for both Android and iOS.",
+        "Utilized TypeScript to enforce reliability across the codebase.",
+        "Deployed features to production through automated Firebase pipelines.",
+      ],
+    },
+  },
 ];
 
 export const featuredExperiences = Experiences.slice(0, 3);
