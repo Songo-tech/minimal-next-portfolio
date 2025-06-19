@@ -26,6 +26,13 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repoOwner: "Logan676",
     link: "https://github.com/Logan676/seadroid",
   },
+  {
+    repo: "material-kit-react",
+    contibutionDescription:
+      "Developed additional components and fixed bugs in the Material Kit React template.",
+    repoOwner: "Logan676",
+    link: "https://github.com/Logan676/material-kit-react",
+  },
 ];
 
 export const featuredContributions: contributionsInterface[] =
