@@ -26,6 +26,13 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repoOwner: "Logan676",
     link: "https://github.com/Logan676/seadroid",
   },
+  {
+    repo: "NextMercePro",
+    contibutionDescription:
+      "Contributed to an advanced Next.js e-commerce platform.",
+    repoOwner: "Songo-tech",
+    link: "https://github.com/Songo-tech/NextMercePro",
+  },
 ];
 
 export const featuredContributions: contributionsInterface[] =
