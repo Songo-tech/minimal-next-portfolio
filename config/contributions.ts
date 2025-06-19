@@ -27,6 +27,13 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repoOwner: "Creative Commons",
     link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
   },
+  {
+    repo: "seadroid",
+    contibutionDescription:
+      "Maintainer of the SeaDroid open-source project.",
+    repoOwner: "Logan676",
+    link: "https://github.com/Logan676/seadroid",
+  },
 ];
 
 export const featuredContributions: contributionsInterface[] =
