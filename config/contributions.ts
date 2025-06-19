@@ -26,6 +26,13 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repoOwner: "Logan676",
     link: "https://github.com/Logan676/seadroid",
   },
+  {
+    repo: "discourse",
+    contibutionDescription:
+      "Contributed to Songo-tech's Discourse project.",
+    repoOwner: "Songo-tech",
+    link: "https://github.com/Songo-tech/discourse",
+  },
 ];
 
 export const featuredContributions: contributionsInterface[] =
