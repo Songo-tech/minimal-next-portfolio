@@ -1,13 +1,13 @@
 export const siteConfig = {
   name: "JackSong | Developer Portfolio Template",
   authorName: "JackSong",
-  username: "namanbarkiya",
+  username: "JackSong",
   description:
     "JackSong's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
   links: {
     twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    github: "https://github.com/Songo-tech",
   },
   ogImage: "https://nbarkiya.xyz/naman-img.jpg",
   iconIco:
