@@ -19,6 +19,13 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repoOwner: "theme-next",
     link: "https://github.com/theme-next/hexo-theme-next",
   },
+  {
+    repo: "seadroid",
+    contibutionDescription:
+      "Maintainer of the SeaDroid open-source project.",
+    repoOwner: "Logan676",
+    link: "https://github.com/Logan676/seadroid",
+  },
 ];
 
 export const featuredContributions: contributionsInterface[] =
