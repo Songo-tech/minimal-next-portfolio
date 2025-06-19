@@ -79,6 +79,55 @@ export const Experiences: ExperienceInterface[] = [
       ],
     },
   },
+   {
+    id: "automotive-ecommerce",
+    companyName: "Automotive E-Commerce",
+    type: "Professional",
+    category: ["Web Dev", "Frontend"],
+    shortDescription:
+      "Implemented responsive features for an online car marketplace.",
+    techStack: [
+      "React",
+      "Javascript",
+      "HTML 5",
+      "CSS 3",
+      "Sass",
+      "Git",
+      "Webpack",
+      "Chrome DevTools",
+      "Figma",
+      "Jira",
+      "Agile/Scrum",
+    ],
+    startDate: new Date("2021-02-01"),
+    endDate: new Date("2022-06-01"),
+    companyLogoImg: "/experience/automotive-ecommerce/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Vehicle Listings",
+        description:
+          "Searchable inventory, comparison tools and booking forms",
+        imgArr: ["/experience/automotive-ecommerce/logo.png"],
+      },
+      {
+        title: "Responsive UI",
+        description:
+          "Optimized pages with SASS styling, lazy loading and code splitting",
+        imgArr: ["/experience/automotive-ecommerce/logo.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Translated UI/UX mockups into cross-browser pages with ES6 JavaScript.",
+        "Collaborated with remote teams using Agile standups and sprint reviews.",
+      ],
+      bullets: [
+        "Developed car listings, comparison tools and user dashboards with React.js.",
+        "Introduced lazy loading and code splitting to boost performance.",
+        "Enforced code quality and WCAG 2.1 accessibility via reviews and automated tests.",
+      ],
+    },
+  },
   {
     id: "linux-skills",
     companyName: "Linux Skills",
