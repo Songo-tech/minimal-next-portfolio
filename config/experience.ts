@@ -28,6 +28,57 @@ export interface ExperienceInterface {
 }
 
 export const Experiences: ExperienceInterface[] = [
+   {
+    id: "cross-border-payment-platform",
+    companyName: "FinTech – Global Cross-Border Payment Platform",
+    type: "Professional",
+    category: ["Web Dev", "Full Stack"],
+    shortDescription:
+      "Built enterprise dashboards and secure workflows for global payments.",
+    techStack: [
+      "React",
+      "Typescript",
+      "Recoil",
+      "SWR",
+      "Jest",
+      "Cypress",
+      "OAuth 2.0",
+      "REST API",
+      "Figma",
+      "Agile/Scrum",
+    ],
+    startDate: new Date("2022-07-01"),
+    endDate: new Date("2025-05-01"),
+    companyLogoImg: "/experience/cross-border-payment-platform/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Multi-Currency Dashboard",
+        description:
+          "Real-time FX rates and high-frequency transaction visualization",
+        imgArr: [
+          "/experience/cross-border-payment-platform/logo.png",
+        ],
+      },
+      {
+        title: "Secure Account Management",
+        description: "2FA and OAuth2 flows across payment modules",
+        imgArr: [
+          "/experience/cross-border-payment-platform/logo.png",
+        ],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Led the development of enterprise-level dashboards for real-time multi-currency exchange tracking and high-frequency transaction visualization.",
+        "Partnered with designers and backend engineers to optimize performance, reducing average load time from 4.5s to under 2s.",
+      ],
+      bullets: [
+        "Built modular components for payment, invoicing, and account management modules.",
+        "Integrated secure authentication flows including 2FA and OAuth2, ensuring PCI-DSS compliance.",
+        "Implemented automated testing pipelines with Jest and Cypress achieving 85% coverage and reducing QA cycles by 30%.",
+      ],
+    },
+  },
   {
     id: "linux-skills",
     companyName: "Linux Skills",
