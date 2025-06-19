@@ -550,12 +550,17 @@ export const Experiences: ExperienceInterface[] = [
       {
         title: "Pagination Rendering",
         description: "Accurate text layout and smooth page transitions",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/ebook-reader-development/a.jpg"],
       },
       {
         title: "Night Mode",
         description: "Comfortable reading with dark theme support",
-        imgArr: ["/logo.png"],
+        imgArr: ["/experience/ebook-reader-development/b.webp"],
+      },
+      {
+        title: "Custom Font Engine",
+        description: "Enhanced reading experience with specialized fonts",
+        imgArr: ["/experience/ebook-reader-development/c.jpg"],
       },
     ],
     descriptionDetails: {
