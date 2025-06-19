@@ -545,7 +545,7 @@ export const Experiences: ExperienceInterface[] = [
     ],
     startDate: new Date("2018-01-01"),
     endDate: new Date("2020-06-01"),
-    companyLogoImg: "/experience/ebook-reader-development/logo.xxx",
+    companyLogoImg: "/experience/ebook-reader-development/logo.png",
     pagesInfoArr: [
       {
         title: "Pagination Rendering",
