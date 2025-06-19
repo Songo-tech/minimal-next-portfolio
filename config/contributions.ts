@@ -27,12 +27,20 @@ export const contributionsUnsorted: contributionsInterface[] = [
     link: "https://github.com/Logan676/seadroid",
   },
   {
+    repo: "NextMercePro",
+    contibutionDescription:
+      "Contributed to an advanced Next.js e-commerce platform.",
+    repoOwner: "Logan676",
+    link: "https://github.com/Songo-tech/NextMercePro",
+  }, 
+  {
     repo: "discourse",
     contibutionDescription:
       "Contributed to Songo-tech's Discourse project.",
     repoOwner: "Logan676",
     link: "https://github.com/Songo-tech/discourse",
- }, {
+ }, 
+  {
     repo: "material-kit-react",
     contibutionDescription:
       "Developed additional components and fixed bugs in the Material Kit React template.",
