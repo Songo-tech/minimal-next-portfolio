@@ -10,7 +10,7 @@ import CustomTooltip from "@/components/ui/custom-tooltip";
 import { Experiences } from "@/config/experience";
 import { siteConfig } from "@/config/site";
 import { cn, formatDateFromObj } from "@/lib/utils";
-import namanImg from "@/public/naman-img.jpg";
+import logoImg from "@/public/logo.png";
 
 interface ExperiencePageProps {
   params: {
@@ -70,13 +70,13 @@ export default function Experience({ params }: ExperiencePageProps) {
             href={siteConfig.links.github}
             className="flex items-center space-x-2 text-sm"
           >
-            <Image
-              src={namanImg}
-              alt={"naman"}
-              width={42}
-              height={42}
-              className="rounded-full bg-background"
-            />
+              <Image
+                src={logoImg}
+                alt={"logo"}
+                width={42}
+                height={42}
+                className="rounded-full bg-background"
+              />
 
             <div className="flex-1 text-left leading-tight">
               <p className="font-medium">{"JackSong"}</p>
