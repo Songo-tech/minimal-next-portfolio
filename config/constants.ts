@@ -52,7 +52,15 @@ export type ValidSkills =
   | "PyTorch"
   | "Spring Boot"
   | "Laravel"
-  | "PHP";
+  | "PHP"
+  | "Recoil"
+  | "SWR"
+  | "OAuth 2.0"
+  | "REST API"
+  | "Agile/Scrum"
+  | "Chrome DevTools"
+  | "Jira"
+  | "Google Analytics";
 
 export type ValidCategory =
   | "Full Stack"
